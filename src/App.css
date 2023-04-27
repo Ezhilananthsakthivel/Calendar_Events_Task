@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+}
+
+.apptitle {
+    text-align: center;
+    
+}
+
+.navbar {
+    width: 70%;
+    height: 60px;
+    background-color: darkcyan;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.nav_logo {
+    line-height: 60px;
+    color: yellow;
+    padding-left: 30px;
+    float: left;
+}
+
+ul {
+    float: left;
+}
+
+.navbar ul li {
+    display: inline-block;
+    justify-content: space-between;
+    line-height: 60px;
+    margin: 0 50px;
+}
+
+.dbtn {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+select,
+option {
+    cursor: pointer;
+    font-size: large;
+}
+
+.dbtn:hover {
+    background-color: lightskyblue;
+    transition: .3s;
+}
+
+.dates {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.date_span {
+    font-size: 2rem;
+    float: right;
+}
+
+.day_span {
+    display: grid;
+}
+
+.nexbtn,
+.prebtn {
+    padding: .2rem .4rem;
+    font-size: 15px;
+}

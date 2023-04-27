@@ -1,0 +1,37 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_container{
+    background-color: whitesmoke;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+}
+.modal_btn{
+    padding: .3rem .9rem;
+    margin: .5rem;
+    float: right;
+    cursor: pointer;
+}
+.modal_btn:hover{
+    background-color: rgb(247, 36, 36);
+    transition: .5s;
+}
+h2{
+    text-align: center;
+    padding: .3rem;
+}
+.modalp{
+    padding: .2rem;
+}
+.modal_pdiv{
+    margin: .3rem;
+}
