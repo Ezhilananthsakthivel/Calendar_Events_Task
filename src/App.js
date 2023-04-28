@@ -24,7 +24,7 @@ function App() {
   let ypos = years.indexOf(year)
 
 
-  const list = jsonData.filter((val) => val.startTime.split(" ")[1] == month && val.startTime.split(" ")[3] == year)
+  const list = data.filter((val) => val.startTime.split(" ")[1] == month && val.startTime.split(" ")[3] == year)
 
   let date = Object.values(list.reduce((acc, curr) => {
     acc[curr.startTime.split(" ")[2]] = curr.startTime
@@ -34,7 +34,7 @@ function App() {
 
 
   const datebtn = (v) => {
-    setTimes(list.filter((val) => val.startTime.split(" ")[1] == v.split(" ")[1] && val.startTime.split(" ")[2] == v.split(" ")[2] && val.startTime.split(" ")[3] == v.split(" ")[3]))
+    setTimes(list.filter((val) => val.startTime.split(" ")[2] == v.split(" ")[2]))
     setModal(true)
   }
 

@@ -1,4 +1,4 @@
-.modal{
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -9,29 +9,45 @@
     align-items: center;
     justify-content: center;
 }
-.modal_container{
+
+.modal_container {
     background-color: whitesmoke;
     max-width: 600px;
     width: 100%;
     border-radius: 8px;
 }
-.modal_btn{
+
+.modal_btn {
     padding: .3rem .9rem;
     margin: .5rem;
     float: right;
     cursor: pointer;
 }
-.modal_btn:hover{
+
+.modal_btn:hover {
     background-color: rgb(247, 36, 36);
     transition: .5s;
 }
-h2{
+
+h2 {
     text-align: center;
     padding: .3rem;
 }
-.modalp{
+
+.modalp {
     padding: .2rem;
 }
-.modal_pdiv{
+
+.modal_pdiv {
     margin: .3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    padding: .4rem;
 }
